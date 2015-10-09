@@ -1,13 +1,9 @@
 <!DOCTYPE html>
 <head>
-	<title></title>
+	<title>Gubbins of Construction</title>
 	<!-- custom css -->
 	<link rel="stylesheet" type="text/css" href="main.css">
-	
-	<!-- script -->
-	<script type="text/javascript" src="jquery.js"></script>
-	<script type="text/javascript" src="jquery-ui.js"></script>
-	<script type="text/javascript" src="script.js"></script>
+
 </head>
 <body>
  	<!-- heading with navigation -->
@@ -19,30 +15,34 @@
 					<li><a href="#">About</a></li>
 					<li><a href="#">Share</a></li>
 					<li><a href="#">Follow Us</a></li>
+					<li class="logo">GC</li>
 				</ul>
 			</nav>
 		</header>
-		
+		<div id="pop-up" class=""></div>
 		<!-- main container -->
 		<div class="main-area">
 			<section>
 				<div class="intro">
-					<p><span id="excite">You made it!</span><br/>You have made a brilliant decision to explore the world of construction envelopes. Here we delve into the drainage, we scurry around the soffits and we puruse the pavements.</p>
+					<h4 id="excite">You made it!</h4><p>You have made a brilliant decision to explore the world of construction envelopes. Here we delve into the drainage, we scurry around the soffits and we puruse the pavements.</p>
 				</div>
 				<div class="explanation">
-					<h4 id="title">Name</h4>Hover to investigate the layers.</p>
+					<h4 id="title">Name</h4>
+					<p class="tell-me">Hover to investigate the layers.</p>
 				</div>
-				
 			</section>
 
 			<aside>
 				<div class="main-window"></div>
 				<div class="bubble mover" id="div-one">
-					<!-- to include smaller bubble <div class="play"></div> -->
+					<div class="play"></div>
 				</div>
 				<div class="bubble shaker" id="div-two"></div>
+					
 				<div class="bubble shaker" id="div-three"></div>
+					
 				<div class="bubble mover" id="div-four"></div>
+		
 				<div class="bubble mover" id="div-five"></div>
 			</aside>
 		</div>
@@ -54,6 +54,12 @@
 			<p>Copyright &copy; Lauren Kitson 2015</p>
 		</footer>
 	</div>
+
+	<!-- script -->
+	<script type="text/javascript" src="jquery.js"></script>
+	<script type="text/javascript" src="jquery-ui.js"></script>
+	<script type="text/javascript" src="script/hover.js"></script>
+	<script type="text/javascript" src="script/script.js"></script>
 
 	<script>document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')</script>
 </body>
