@@ -3,6 +3,11 @@
 	<title></title>
 	<!-- custom css -->
 	<link rel="stylesheet" type="text/css" href="main.css">
+	
+	<!-- script -->
+	<script type="text/javascript" src="jquery.js"></script>
+	<script type="text/javascript" src="jquery-ui.js"></script>
+	<script type="text/javascript" src="script.js"></script>
 </head>
 <body>
  	<!-- heading with navigation -->
@@ -11,9 +16,9 @@
 			<!-- navigation -->
 			<nav>
 				<ul>
-					<li>About</li>
-					<li>Share</li>
-					<li>Follow Us</li>
+					<li><a href="#">About</a></li>
+					<li><a href="#">Share</a></li>
+					<li><a href="#">Follow Us</a></li>
 				</ul>
 			</nav>
 		</header>
@@ -22,8 +27,8 @@
 		<div class="main-area">
 			<section>
 				<div class="intro">
-					<p>Yay you made it! You have made a brilliant decision to explore the world of construction envelopes. Here we delve into the drainage, we scurry around the soffits and we puruse the pavements.<br />
-					Please hover to investigate the layers.</p>
+					<p><span id="excite">You made it!</span><br/>You have made a brilliant decision to explore the world of construction envelopes. Here we delve into the drainage, we scurry around the soffits and we puruse the pavements.<br />
+					Hover to investigate the layers.</p>
 				</div>
 				<div class="head">
 					<h1>Welcome to the <br/>Gubbins <span id="emp">of </span>Construction</h1>
@@ -32,13 +37,16 @@
 			</section>
 
 			<aside>
-				<div class="bubble main-window"></div>
+				<div class="main-window"></div>
 				<div class="bubble" id="div-one"></div>
 				<div class="bubble" id="div-two"></div>
 				<div class="bubble" id="div-three"></div>
 				<div class="bubble" id="div-four"></div>
 			</aside>
 		</div>
+		<footer>
+			<p>Copyright &copy; Lauren Kitson 2015</p>
+		</footer>
 	</div>
 
 	<script>document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')</script>
