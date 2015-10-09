@@ -1,0 +1,121 @@
+body {
+	font-family: sans-serif;
+}
+
+header {
+	background-color: #000;
+	height: 80px;
+	margin: 0;
+}
+
+nav {
+	margin: auto 0;
+	padding: 17px 10px;
+}
+
+li {
+	list-style-type: none;
+	color: #fff;
+	display: inline;
+	padding-right: 20px;
+}
+
+section {
+	float: left;
+	width: 50%;
+}
+
+aside {
+	float: right;
+	width: 50%;
+}
+
+h1 {
+	font-size: 35px;
+	margin: 20px;
+}
+
+h3 {
+	font-size: 15px;
+	margin: 20px;
+}
+
+p {
+	margin: 20px;
+}
+
+.container{
+	max-width: 1150px;
+	margin: 0 auto;
+	position: relative;
+	top: -17px;
+}
+
+.main-area {
+	margin-top: 80px;
+	height: 600px;
+	overflow: hidden;
+}
+
+.intro {
+	border: 2px dashed #f00;
+	height: 200px;
+	width: 280px;
+	margin: 10% 5%;
+}
+
+.bubble {
+	position: relative;
+	background-color: #000;
+	height: 100px;
+	width: 100px;
+	border: 5px solid #ddd;
+	border-radius: 100%;
+	margin: 10px;
+}
+
+#div-one {
+	position: relative;
+	top: -20px;
+	right: -5px;
+	z-index: -1;
+}
+
+#div-two {
+	position: relative;
+	height: 70px;
+	width: 70px;
+	top: -400px;
+	right: -46px;
+	z-index: -1;
+}
+
+#div-three {
+	position: relative;
+	top: -196px;
+	right: -331px;
+	z-index: -1;
+}
+
+#div-four {
+	position: relative;
+	top: -645px;
+	right: -344px;
+	z-index: -1;
+}
+
+.main-window {
+	position: relative;
+	top: 50px;
+	left: 121px;
+	height: 300px;
+	width: 300px;
+	z-index: 1;
+}
+
+/* fonts */
+
+#emp {
+	font-style: italic;
+	font-family: light; 
+}
