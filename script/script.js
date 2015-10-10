@@ -25,7 +25,7 @@ $(document).ready(function() {
 		var $img = $('#div-three').css(["background-image"]);
 		$('.main-window').css($img);
 		$('#title').text("Slab Envelope");
-		$('.tell-me').text("The slab that we're talking about is the cast or insitu concrete you walk on in commerial buildings");
+		$('.tell-me').text("The slab that we're talking about is the cast or insitu concrete you walk on in commerial buildings.");
 	})
 
 	$('#div-four').on('click', function() {
