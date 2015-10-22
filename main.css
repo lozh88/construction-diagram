@@ -151,6 +151,9 @@ footer p {
   .title {
     font-size: 20px; }
 
+  p {
+    font-size: 15px; }
+
   .explanation {
     width: 25%;
     position: absolute;
