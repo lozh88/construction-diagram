@@ -42,4 +42,10 @@ $(document).ready(function() {
 		$('.tell-me').text("Undefined");
 	})
 
+	$('#about').on('click', function() {
+		var $about = "Welcome!";
+		var $intro = "You made it! Here you can explore the nitty gritty of construction, the innards of domestic buildings and build your repetoir of fun facts."
+		$('#title').text($about);
+		$('.tell-me').text($intro);
+	})
 });
