@@ -11,7 +11,7 @@ $(document).ready(function() {
 		var $img = $('#div-one').css(["background-image"]);
 		$('.main-window').css($img);
 		$('#title').text("Domestic Wall Envelope");
-		$('.tell-me').text("A wall is fascinating. Did you know an average external wall in the UK is 40cm thick?");
+		$('.tell-me').text("Cavity walls consist of an outer brick or block leaf or skin separated from an inner brick or block leaf or skin by an air space called a cavity. These walls have better thermal insulation and weather resistance properties than a comparable solid brick or block wall and therefore are in general use for the enclosing walls of domestic buildings. The two leaves of a cavity wall are tied together with wall ties located at 2.5/m2, or at equivalent spacings as given in Section 2C of Approved Document A - Building Regulations.");
 	})
 
 	$('#div-two').on('click', function() {
@@ -42,8 +42,4 @@ $(document).ready(function() {
 		$('.tell-me').text("Undefined");
 	})
 
-	// $('.play')on('click', function() {
-	// 	$('#pop-up').addClass('popped');
-	// 	});
-	// })
 });
