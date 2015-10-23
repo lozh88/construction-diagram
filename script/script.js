@@ -7,39 +7,36 @@ $(document).ready(function() {
 		$(this).css('transform', 'scale(1)');
 	});
 
+	// Code to cycle through highlighted complete structure images on mouse enter
+
 	$('#div-one').on('click', function() {
-		var $img = $('#div-one').css(["background-image"]);
-		$('.main-window').css($img);
-		$('#title').text("Domestic Wall Envelope");
-		$('.tell-me').text("Cavity walls consist of an outer brick or block leaf or skin separated from an inner brick or block leaf or skin by an air space called a cavity. These walls have better thermal insulation and weather resistance properties than a comparable solid brick or block wall and therefore are in general use for the enclosing walls of domestic buildings.");
+		$('.main-window').css('background-image', 'url(img/complete-structure-idbeam.png)');
+		$('#title').text("Beams");
+		$('.tell-me').text("Beams help distribute loads to the columns.");
 	})
 
 	$('#div-two').on('click', function() {
-		var $img = $('#div-two').css(["background-image"]);
-		$('.main-window').css($img);
-		$('#title').text("Pavement Envelope");
-		$('.tell-me').text("Funny thing... the pavement is actually the road, not the walk way.");
+		$('.main-window').css('background-image', 'url(img/complete-structure-idfoundation.png)');
+		$('#title').text("Foundations");
+		$('.tell-me').text("Everything relies on this. Without a well designed and constructed foundation a structure can be subject to leaning, sinking or even collapsing altogether.");
 	})
 
 	$('#div-three').on('click', function() {
-		var $img = $('#div-three').css(["background-image"]);
-		$('.main-window').css($img);
-		$('#title').text("Slab Envelope");
-		$('.tell-me').text("The slab that we're talking about is the cast or insitu concrete you walk on in commerial buildings.");
+		$('.main-window').css('background-image', 'url(img/complete-structure-idfloor.png)');
+		$('#title').text("Floors");
+		$('.tell-me').text("You make walk all over it but don't take it for granted. Floors distribute dynamic loads as well as hide services and help to insulate buildings.");
 	})
 
 	$('#div-four').on('click', function() {
-		var $img = $('#div-four').css(["background-image"]);
-		$('.main-window').css($img);
-		$('#title').text("Roof Truss");
-		$('.tell-me').text("Ok, so this isn't strictly an envelope but it is very interesting...promise");
+		$('.main-window').css('background-image', 'url(img/complete-structure-idgirder.png)');
+		$('#title').text("Girders");
+		$('.tell-me').text("A girder is a giant beam. These components when designed correctly are able to span long distances and support heavy loads.");
 	})
 
 	$('#div-five').on('click', function() {
-		var $img = $('#div-five').css(["background-image"]);
-		$('.main-window').css($img);
-		$('#title').text("Undefined");
-		$('.tell-me').text("Undefined");
+		$('.main-window').css('background-image', 'url(img/complete-structure-idforces.png)');
+		$('#title').text("Equilibrium");
+		$('.tell-me').text("Ok so this isn't a component but it is probably the most important consideration. Keeping things in balance is key to a happy, non-wobbly building.");
 	})
 
 	$('#about').on('click', function() {

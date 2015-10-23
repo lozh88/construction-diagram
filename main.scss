@@ -1,23 +1,15 @@
 $font: 'Special Elite', serif;
 
+
+/*********************************
+************ GENERAL *************
+*********************************/
+
 body {
 	font-family: $font;
 	background-image: url(img/crumpled-paper.png);
 	color: #000;
 	padding-top: 10px;
-}
-
-.navbar-inverse {
-	background-color: transparent;
-	border: none;
-	.navbar-nav > li > a {
-		color: #fff;
-		font-family: $font;
-	}
-}
-
-.navbar-collapse {
-	padding-left: 0;
 }
 
 p {
@@ -37,27 +29,6 @@ h1 {
 	font-weight: lighter;
 }
 
-
-li {
-	list-style-type: none;
-    display: inline;
-    margin: 8px;
-    background-color: #0CA199;
-    border-bottom: 3px solid #00CCC2;
-    border-radius: 5px;
-    font-family: sans-serif;
-    font-weight: bold;
-    margin-top: 20px;
-    :first-child {
-		margin-left: 0;
-	}
-	&:hover {
-		background-color: #FF19D6;
-		border-bottom: 3px solid #12B2AB;
-		transition: all 0.2s ease;
-	}
-}
-
 #title {
 	font-size: 25px;
 	font-weight: bold;
@@ -65,73 +36,9 @@ li {
 	font-family: $font;
 }
 
-/***** diagram *****/
-
-.bubble {
-	position: relative;
-	height: 100px;
-	width: 100px;
-	border: 3px solid #000;
-	border-radius: 100%;
-	margin: 10px;
-}
-
-#div-one {
-	position: relative;
-	top: -20px;
-	right: -5px;
-	background-image: url(https://placeimg.com/300/300/arch);
-}
-
-#div-two {
-	position: relative;
-	height: 77px;
-	width: 77px;
-	top: -400px;
-	right: -46px;
-	background-image: url(https://placeimg.com/300/300/people);
-}
-
-#div-three {
-	position: relative;
-	top: -190px;
-	right: -435px;
-	background-image: url(https://placeimg.com/300/300/nature);
-}
-
-#div-four {
-	position: relative;
-	height: 150px;
-	width: 150px;
-	top: -645px;
-	right: -344px;
-	background-image: url(https://placeimg.com/300/300/sport);
-}
-
-#div-five {
-	position: absolute;
-	height: 60px;
-	width: 60px;
-	top: 350px;
-	right: 130px;
-	background-image: url(https://placeimg.com/300/300/tech);
-}
-
-.main-window {
-	position: relative;
-	background-color: #fee;
-	border: 5px solid #000;
-	border-radius: 100%;
-	margin: 10px;
-	top: 50px;
-	left: 121px;
-	height: 300px;
-	width: 300px;
-	z-index: 1;
-}
-
 .aside {
 	height: 425px;
+	z-index: 1;
 }
 
 footer p{
@@ -143,28 +50,125 @@ footer p{
 	margin-top: 5%;
 }
 
-/*.left-btn {
-	height: 40px;
-	width: 40px;
-	position: absolute;
-	top: 50%;
-	left: -20px;
-	background-color: #000;
-	border-radius: 100px;
+/*********************************
+*********** NAVIGATION ***********
+*********************************/
+
+.navbar-inverse {
+	background-color: transparent;
+	border: none;
+	.navbar-nav > li > a {
+		color: #fff;
+		font-family: $font;
+	}
 }
 
-.right-btn {
-	height: 40px;
-	width: 40px;
-	position: absolute;
-	top: 50%;
-	right: -20px;
-	background-color: #000;
-	border-radius: 100px;
+.navbar-collapse {
+	padding-left: 0;
 }
-*/
 
-/***** media queries *****/
+li {
+	list-style-type: none;
+    display: inline;
+    margin: 8px;
+    background-color: #0CA199;
+    border-bottom: 3px solid #00CCC2;
+    border-radius: 5px;
+    font-family: sans-serif;
+    font-weight: bold;
+    margin-top: 20px;
+    &:first-child {
+		margin-left: 0;
+	}
+	&:hover {
+		background-color: #FF19D6;
+		border-bottom: 3px solid #12B2AB;
+		transition: all 0.2s ease;
+	}
+}
+
+
+/*********************************
+************ DIAGRAM *************
+*********************************/
+
+.bubble {
+	position: relative;
+	height: 100px;
+	width: 100px;
+	// border: 3px solid #000;
+	// border-radius: 100%;
+	margin: 10px;
+}
+
+#div-one {
+	position: relative;
+	top: -20px;
+	right: -5px;
+	background: url(img/Scandrawing.png) no-repeat;
+	padding: 20px
+}
+
+#div-two {
+	position: relative;
+	height: 130px;
+	width: 100px;
+	top: -400px;
+	right: 6px;
+	background: url(img/foundation.png) no-repeat;
+}
+
+#div-three {
+	position: absolute;
+	height: 200px;
+	width: 200px;
+	top: 0px;
+	right: 5px;
+	background: url(img/floor.png) no-repeat;
+}
+
+#div-four {
+	position: relative;
+	height: 150px;
+	width: 150px;
+	top: -445px;
+	right: -344px;
+	background: url(img/girder.png) no-repeat;
+}
+
+#div-five {
+	position: absolute;
+	height: 60px;
+	width: 60px;
+	top: 300px;
+	right: 130px;
+	background: url(https://placeimg.com/300/300/tech) no-repeat;
+}
+
+.main-window {
+	position: relative;
+	// border: 5px solid #000;
+	// border-radius: 100%;
+	margin: -40px 10px 10px 10px;
+	top: 50px;
+	right: -100px;
+	height: 458px;
+	width: 300px;
+	z-index: 1;
+	background: url(img/complete-structure.png);
+	transform: scale(1.2);
+}
+
+
+/*********************************
+********* MEDIA QUERIEES *********
+*********************************/
+
+@media (min-width: 1170px) {
+	.container {
+		width: 1200px;
+	}
+}
 
 @media screen and (max-width: 1200px) {
 	h1 {
@@ -193,5 +197,16 @@ footer p{
 	.head {
 		float: left;
 	}
-	
+	footer {
+		margin-top: 30px;
+	}
+	.main-window {
+		transform: scale(1);
+	}
 }
+
+/* @media screen and (max-height: 850px) {
+	.main-window {
+		transform: scale(.9);
+	}
+} */
