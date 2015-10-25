@@ -30,7 +30,7 @@ $(document).ready(function() {
 	$('#div-four').on('click', function() {
 		$('.main-window').css('background-image', 'url(img/complete-structure-idgirder.png)');
 		$('#title').text("Girders");
-		$('.tell-me').text("A girder is a giant beam. These components when designed correctly are able to span long distances and support heavy loads.");
+		$('.tell-me').text("A girder is a giant beam. These components, when designed correctly, are able to span long distances and support heavy loads.");
 	})
 
 	$('#div-five').on('click', function() {
@@ -44,5 +44,12 @@ $(document).ready(function() {
 		var $intro = "You made it! Here you can explore the nitty gritty of construction, the innards of domestic buildings and build your repetoir of fun facts."
 		$('#title').text($about);
 		$('.tell-me').text($intro);
+	})
+
+	$('#learn').on('click', function() {
+		var $title = "Check out these handy resources!";
+		var $sites = "Functions of Building Components";
+		$('#title').text($title);
+		$('.tell-me').text($sites);
 	})
 });
